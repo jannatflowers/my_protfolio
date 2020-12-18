@@ -1,0 +1,314 @@
+
+
+/*font-family: 'Bad Script', cursive;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3{
+	font-family: 'Playfair Display', serif;
+
+}
+img{
+    width: 100%;
+}
+body{
+    background-color: #0e2030;
+    color: #fff;
+
+}
+/*header start*/
+.headertext {
+    margin-top: 140px;
+}
+.headertext p{
+    margin-top: 50px;
+}
+.headicon i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+     border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    margin-right: 10px;
+    transition: 0.3s ease-out;
+    margin-top: 50px;
+}
+.headicon i:hover{
+    background-color: #0563bb;
+    border: 1px solid #0563bb;
+
+}
+.lefticon{
+    position: fixed;
+    top: 35%;
+}
+.icon2 {
+    width: 60px;
+    height: 60px;
+    background-color: #0563bb;
+    line-height: 60px;
+    border-radius: 60px;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    transition: 0.3s ease-out;
+    margin: 10px 20px;
+}
+.icon2:hover{
+    width: 130px;
+    background-color: #0563bb;
+}
+.icon2 a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.7s;
+}
+.icon2 a i{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    background-color: #0563bb;
+    font-size: 30px;
+    text-align: center;
+}
+/*about starat*/
+.about-title h1{
+    margin: 0;
+    position: relative;
+color: #f14773;
+}
+.about-title h1:before{
+    content: '';
+    position: absolute;
+   top: 58px;
+left: 47%;
+height: 3px;
+width: 65px;
+ background-color:#0563bb; 
+}
+.about-title p{
+    margin: 0;
+   padding: 50px;
+font-size: 18px;
+word-spacing: 3px;
+}
+.about-content p{
+     padding: 30px 0px;
+font-size: 17px;
+padding-right: 118px;
+}
+.myinfo p{
+font-size: 17px;
+ font-weight: 700;
+}
+.myinfo span{
+   color: #fff;
+font-weight: 400;
+margin-left: 8px;
+font-size: 17px;
+}
+
+/*about end*/
+/*mywork start*/
+.mywork{
+border: 2px solid  #0563bb;
+padding: 35px;
+}
+.mywork i{
+     font-size: 31px;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+      background-color: #0563bb;
+      border: 2px solid #0563bb;
+      transition: 0.3s ease-out;
+}
+.mywork i:hover{
+   border: 2px solid #0563bb;
+   background-color: transparent;
+}
+.mywork h1{
+font-size: 50px;
+margin: 5px;
+}
+.mywork p{
+    margin: 0;
+}
+/*mywork end*/
+.pgbar1{
+    background-color:#0563bb;
+    margin-bottom: 20px;
+}
+.pgbar1 span{
+        margin-top: 7px;
+    margin-left: 8px;
+}
+.pgbar2{
+background-color:#f14773;
+}
+/*protfolio start*/
+.protfolio_img{
+    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.protfolio_img img{
+    transition: 0.3s;
+}
+.protfolio_img img:hover{
+    transform: scale(1.4);
+}
+.prot_overlay{
+  width: 100%;
+position: absolute;
+bottom: 0px;
+text-align: center;
+left: 6px;
+transform: translateY(-30px)
+
+}
+.prot_overlay a{
+    font-size: 20px;
+     color: #fff;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    transition:0.3S;
+}
+.prot_overlay a :hover{
+    background-color: transparent;
+    border: 1px solid #f14773;
+}
+.prot_overlay i{
+    padding: 10px;
+    border-radius: 50%;
+     border: 1px solid #f14773;
+     background-color:#f14773;
+     font-size: 20px;
+     transition: 0.3s;
+}
+.prot_overlay a :hover.fa-facebook{
+    transform: translateY(-5px);
+}
+.prot_overlay a :hover.fa-twitter{
+    transform: translateY(-5px);
+}
+.prot_overlay a :hover.fa-linkedin{
+    transform: translateY(-5px);
+}
+
+/*resume start*/
+.eden h1,.vnc h2{
+    color:#f14773;
+}
+.eden span,.vnc span{
+    color:#f14773;
+    font-size: 14px;
+     letter-spacing: 1px;
+    margin: 14px 0px;
+    overflow: hidden;
+    display: block;
+}
+/*resume end*/
+/*service start*/
+.cardbg{
+    background-color: transparent;
+position: relative;
+display: block;
+overflow: hidden;
+}
+.cardbg h3{
+   color:#f14773; 
+}
+.svp{
+padding: 20px 0px;
+}
+.cardbg img{
+    transition: 0.3s;
+   overflow: hidden;
+}
+.cardbg img:hover{
+transform: scaleX(1.1);
+}
+.srbtn{
+    background-color:#f14773;   
+    color: #fff;
+    transition: 0.3s;
+}
+.srbtn:hover{
+    background-color:#0563bb;
+    color: #fff;
+}
+.cardbg:hover img{
+opacity: 0.5;
+cursor: pointer;
+
+}
+/*service end*/
+/*location start*/
+.contact_me i{
+background-color: #f14773;
+border-radius: 89%;
+font-size: 31px;
+color: #fff;
+width: 55px;
+height: 55px;
+line-height: 55px;
+text-align: center;
+transition: 0.3s;
+cursor: pointer;
+margin-right: 20px;
+}
+.conme:hover.conme i{
+    background-color: #0563bb;
+}
+.contact_me i:hover {
+    background-color: #0563bb;
+}
+.contact_me p{
+    padding: 10px 0px;
+    letter-spacing: 1px;
+}
+#frist-name, #last-name {
+    border: 2px solid #f14773;
+    background: transparent;
+    color: #f3eded;
+    width: 48%;
+    padding: 8px;
+    font-size: 20px;
+}
+#email{
+  border: 2px solid #f14773;
+    background: transparent;
+    color: #f3eded;
+    width: 97%;
+    padding: 15px;
+    margin: 20px 0px;
+    font-size: 20px;  
+}
+#mess{
+    border: 2px solid #f14773;
+    background: transparent;
+    color: #f3eded;
+    width: 97%;
+    padding: 35px;
+    font-size: 20px; 
+}
+/*location end*/
+footer{
+    padding:80px 0px;
+}
+.footertext{
+    font-size: 20px;
+}
+.footertext a{
+    color:#fff;
+     font-size: 20px;
+}
